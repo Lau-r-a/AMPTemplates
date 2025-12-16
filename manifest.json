@@ -1,9 +1,9 @@
 {
-	"id": "ec280171-c67b-4cf8-923f-dc27fea91ee1",
+	"id": "ec280171-h82s-4cf8-923f-dc27fea91ee1",
 	"authors": ["CubeCoders Limited", "AMP Community"],
-	"origin": "https://github.com/CubeCoders/AMPTemplates.git",
-	"url": "https://github.com/CubeCoders/AMPTemplates",
+	"origin": "https://github.com/Lau-r-a/AMPTemplates",
+	"url": "https://github.com/Lau-r-a/AMPTemplates",
 	"imagefile": "",
-	"prefix": "",
+	"prefix": "laura-",
 	"repotype": "AppTemplates"
 }
