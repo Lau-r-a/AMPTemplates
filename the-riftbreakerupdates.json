@@ -5,7 +5,6 @@
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "4114030",
         "UpdateSourceArgs": "780310",
-        "UpdateSourceVersion": "beta_dev",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "ForceDownloadPlatform": "Windows",
