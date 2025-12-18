@@ -1,14 +1,22 @@
 [
-    {
-        "UpdateStageName": "",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": "SteamCMD",
-        "UpdateSourceData": "4114030",
-        "UpdateSourceArgs": "780310",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "ForceDownloadPlatform": "Windows",
-        "DeleteAfterExtract": true,
-        "OneShot": false
-    }
+  {
+    "UpdateStageName": "",
+    "UpdateSourcePlatform": "All",
+    "UpdateSource": "SteamCMD",
+    "UpdateSourceData": "4114030",
+    "UpdateSourceArgs": "780310",
+    "UnzipUpdateSource": false,
+    "OverwriteExistingFiles": false,
+    "ForceDownloadPlatform": "Windows",
+    "DeleteAfterExtract": true,
+    "OneShot": false
+  },
+  {
+    "UpdateStageName": "Initialise Wine",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSource": "Executable",
+    "UpdateSourceData": "/bin/bash",
+    "UpdateSourceArgs": "-c \"rm -rf \\\"{{$FullRootDir}}.wine\\\" >/dev/null 2>&1; WINEPREFIX=\\\"{{$FullRootDir}}.wine\\\" WINEARCH=win64 WINEDEBUG=-all XDG_RUNTIME_DIR=/tmp /usr/bin/wineboot --init\"",
+    "SkipOnFailure": false
+  }
 ]
